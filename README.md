@@ -67,12 +67,6 @@ jupyter lab
 # Open notebooks/Normalisation.ipynb
 ```
 
-### Basic Usage
-
-1. Place input CSVs in `data/processed/Output_TimeSeries/`
-2. Choose normalization method(s) in the notebook
-3. Run the cells to generate normalized outputs
-4. Find outputs in `results/normalized/`
 
 ## 📈 Data Format
 
