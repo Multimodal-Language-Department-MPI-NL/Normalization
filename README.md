@@ -1,7 +1,3 @@
-# MediaPipe Keypoints Normalization
-
-> Attribution: Use the script prepared for the focus group session. Attribute to this Envision Box module: [Module](https://www.envisionbox.org/embedded_MergingMultimodal_inPython.html)
-
 Normalize MediaPipe keypoint time series to a shared coordinate system and scale for cross-participant comparability.
 
 ## 🔬 Research Context
@@ -85,4 +81,4 @@ jupyter lab
 
 ## 📖 References
 
-- Feature scaling in time series analysis and gesture research literature
+
