@@ -1,5 +1,7 @@
 # MediaPipe Keypoints Normalization
 
+> Attribution: Use the script prepared for the focus group session. Attribute to this Envision Box module: [Module](https://www.envisionbox.org/embedded_MergingMultimodal_inPython.html)
+
 Normalize MediaPipe keypoint time series to a shared coordinate system and scale for cross-participant comparability.
 
 ## 🔬 Research Context
@@ -15,7 +17,7 @@ This module covers:
 3. **Scale Normalization**: Standardize amplitudes across participants/sessions
 4. **Export**: Write normalized time series to disk for downstream analysis
 
-## 📊 Normalization Process
+## 📊 Smoothing Process
 
 The notebook follows a simple workflow:
 
@@ -25,7 +27,7 @@ The notebook follows a simple workflow:
 4. **Validate**: Visually and quantitatively verify effects
 5. **Save**: Export normalized CSVs
 
-## 🔧 Normalization Methods
+## 🔧 Smoothing Techniques
 
 Implemented in the notebook (adjust as needed in `Normalisation.ipynb`):
 
@@ -78,8 +80,8 @@ jupyter lab
 
 ## 🔗 Related Projects
 
-- `../Smoothing/` – optional preprocessing before normalization
-- `../MediaPipe_keypoints_extraction/` – raw keypoint extraction
+- `https://github.com/Multimodal-Language-Department-MPI-NL/Smoothing` – optional preprocessing before normalization
+- `https://github.com/Multimodal-Language-Department-MPI-NL/MediaPipe_keypoints_extraction` – raw keypoint extraction
 
 ## 📖 References
 
