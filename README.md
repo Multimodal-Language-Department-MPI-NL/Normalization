@@ -2,7 +2,7 @@ Normalize MediaPipe keypoint time series to a shared coordinate system and scale
 
 ## 🔬 Research Context
 
-This module is part of a larger research workflow for gesture and motion analysis. Normalization ensures that trajectories are comparable across recordings with different resolutions, camera setups, and subject sizes.
+This module shows how to normalize the size and position of motion tracking data across files. Normalization ensures that the data for all files is on the same scale so that you can compare movement trajectories across files with different resolutions, camera setups, and participant sizes.
 
 ## 🎯 What This Project Does
 
