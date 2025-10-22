@@ -1,5 +1,9 @@
 Normalize MediaPipe keypoint time series to a shared coordinate system and scale for cross-participant comparability.
 
+![Keypoint normalization demo](src/normalization/keypoint_normalization.gif)
+
+> Illustration: Example of coordinate and scale normalization applied to wrist trajectories relative to body references.
+
 ## 🔬 Research Context
 
 This module shows how to normalize the size and position of motion tracking data across files. Normalization ensures that the data for all files is on the same scale so that you can compare movement trajectories across files with different resolutions, camera setups, and participant sizes.
